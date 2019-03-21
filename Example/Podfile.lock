@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (8.0.0)
+  - Quick (2.0.0)
+  - TsgsSelector (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 8.0.0)
+  - Quick (~> 2.0.0)
+  - TsgsSelector (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  TsgsSelector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: a0e6f95b4b91a4f66b6da3512b6bebc07c9cbf49
+  Quick: ce1276c7c27ba2da3cb2fd0cde053c3648b3b22d
+  TsgsSelector: ff1e765aa93ed95eb06590b206743dd7a0eaac17
+
+PODFILE CHECKSUM: ae5878521c9859ff18f53b7376c7f10cace44f48
+
+COCOAPODS: 1.6.1

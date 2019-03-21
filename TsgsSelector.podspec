@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TsgsSelector'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TsgsSelector.'
+  s.summary          = 'TsgsSelector is a UI component that make user select tagged words via the custom tag input view.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yusuke-tech/TsgsSelector'
+  s.homepage         = 'https://github.com/uskithub/TsgsSelector'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yusuke-tech' => 'yusuke.saito@jibunstyle.com' }
-  s.source           = { :git => 'https://github.com/yusuke-tech/TsgsSelector.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'uskithub' => 'yusuke.saito@jibunstyle.com' }
+  s.source           = { :git => 'https://github.com/uskithub/TsgsSelector.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/uskwitter'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TsgsSelector/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TsgsSelector' => ['TsgsSelector/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'TsgsSelector' => ['Assets/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
